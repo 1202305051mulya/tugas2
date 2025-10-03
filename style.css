@@ -1,0 +1,75 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #fff8f0;
+}
+
+/* Container */
+#container {
+    width: 85%;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+#header {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+#header p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+/* Menubar */
+#menubar {
+    background: #ffcc00;
+    padding: 15px;
+    text-align: center;
+}
+
+#menubar .menu {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#menubar .menu:hover {
+    color: #ff5722;
+    text-shadow: 0px 0px 5px rgba(255,87,34,0.6);
+}
+
+/* Konten */
+#content {
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Footer */
+#footer {
+    background: #333;
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
